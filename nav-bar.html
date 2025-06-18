@@ -10,26 +10,55 @@
             margin: 0;
             padding: 0;
         }
+        .navbar{
+            background-color: aqua;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .book-container{
+            display: flex;
+            align-items: center;
+        }
+        .books-img{
+            height: 60px;
+            margin-right: 30px;
+        }
+        .books-text{
+            font-size: 26px;
+            font-weight: bold;
+            color: blue;
+        }
+        .menus{
+            font-size: 20px;
+            color: black;
+            margin: 0 15px;
+            cursor: pointer;
+        }
+        .menus:hover{
+            color: blue;
+            text-decoration: underline;
+        }
     </style>
 </head>
 
 <body>
     <div class="navbar">
-        <img src="img/stack-of-books.png" class="books-img">
+        <div class="book-container">
+        <img src="img/stack-of-books (1).png" class="books-img">
         <span class="books-text">GoodReads</span>
     </div>
     <div>
-        <span>Home</span>
-        <span>Collection</span>
-        <span>About</span>
-        <span>Contact</span>
+        <span class="menus">Home</span>
+        <span class="menus">Collection</span>
+        <span class="menus">About</span>
+        <span class="menus">Contact</span>
     </div>
     <div>
         <img src="img/file.png" alt="file icon" class="other icon">
         <img src="img/settings.png" alt="settings" class="other icon">
     </div>
-    <img src="img/more.png" >
-
+    <img src="img/menu.png" alt="more icon" class="more icon" >
+</div>
 </body>
-
 </html>
